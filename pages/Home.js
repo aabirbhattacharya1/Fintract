@@ -5,26 +5,26 @@ export default function Home() {
   return (
     <>
       <div className={styles.home}>
-        <p className={styles.heading}> FINTRACT GLOBAL</p>
-        <p className={styles.ii}>INSPIRE INNOVATION</p>
-        <p className={styles.description}>
+        <div className={styles.heading}> FINTRACT GLOBAL</div>
+        <div className={styles.ii}>INSPIRE INNOVATION</div>
+        <div className={styles.description}>
           Fintract Global takes your privacy very seriously. We may process your
           personal information for carefully considered and specific purpose
           which are in our interests and enable us to enhance the service we
           provide.
-        </p>
+        </div>
       </div>
       <div className={styles.homebox2}>
         <div className={styles.box1}>
-          <p className={styles.box1box1}>
+          <div className={styles.box1box1}>
             The current payment & banking structures are light years away from
             meeting the needs of customers and stakeholders. At Fintract Global
             Ltd, we combine a cutting-edge tech stack with exceptional talent
             from Europe, Asia and America to lead change in how financial
             entities work.
-          </p>
+          </div>
           <button className={styles.getstarted}>Get Started</button>
-          <p className={styles.reviews}>Over 10k reviews</p>
+          <div className={styles.reviews}>Over 10k reviews</div>
           <Image
             className={styles.peopleimg}
             src="/people image.png"
@@ -40,15 +40,15 @@ export default function Home() {
             width={100}
             height={100}
           />
-          <p className={styles.ceosays}>
+          <div className={styles.ceosays}>
             “Over the years, I have built lasting relationships with my clients
             and team, whose professional success I believe to be closely linked
             with our long-term progress”<br/><br/>
             <b>Debasis Chakraborty</b><br/>
             <b>CEO FinTract Global</b>
-          </p>
-          <p><h1>20K +</h1></p>
-          <p>Users already registered and signing up for our product</p>
+          </div>
+          <div><h1>20K +</h1></div>
+          <div>Users already registered and signing up for our product</div>
         </div>
       </div>
     </>
